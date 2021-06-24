@@ -11,7 +11,7 @@ If you are familiar with Jupyter, click below to launch the program notebooks in
 ### SCAN & LOOK
 Direction argument can be stated depends on the user with two default values; left and right. Direction argument is optional so user can leave it blank.
 
-Create new cell on Jupyter Notebook and run this code below.
+Create a new cell on Jupyter Notebook and run this code below.
 
 ```python
 queue=[83, 35, 10, 90, 45, 80, 20, 50, 65]
@@ -23,7 +23,7 @@ LOOK(head, queue, direction="right")
 ### SSTF
 Shortest Seek Time First (SSTF) algorithm will decide the direction itself depends on shortest seek time. It means direction argument does not needed while calling the function.
 
-Create new cell on Jupyter and run this code below.
+Create a new cell on Jupyter and run this code below.
 ```python
 queue=[83, 35, 10, 90, 45, 80, 20, 50, 65]
 head=25
